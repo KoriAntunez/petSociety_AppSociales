@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+  --color-1: #EB8097;
+  --color-2: #EB8097;
+  --color-3: #6C95FF;
+  --color-4: #bd5458;
+  --color-4-dark: #9d3538;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.text-logo {
+  font-family: 'Concert One', cursive;
+}
+
+.text-color-1 {
+  color: var(--color-1);
+}
+
+.text-color-2 {
+  color: var(--color-2);
+}
+
+.bg-color-2 {
+  background-color: var(--color-2);
+}
+
+.bg-color-3, .bg-color-2:hover {
+  background-color: var(--color-3);
+}
+
+.bg-color-4 {
+  background-color: var(--color-4);
+}
+
+.bg-color-4:hover {
+  background-color: var(--color-4-dark);
+}
+
+input[type="file"] {
+  display: none;
+}
