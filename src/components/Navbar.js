@@ -93,7 +93,7 @@ const Navbar = () => {
                 <Option
                   link={routes.panel.courses}
                   style_link="text-gray-700 block px-4 py-2 text-sm"
-                  option="Mis servicios"
+                  option="Posts"
                 />
               </li>
               <li className="py-1" role="none">
